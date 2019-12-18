@@ -2,4 +2,13 @@
     width: 500px;
 }
 
+.custom-menu {
+    border-bottom: 4px solid black;
+}
+
+.custom-menu .navbar-nav li {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
 /*# sourceMappingURL=/main.1603664a.css.map */
