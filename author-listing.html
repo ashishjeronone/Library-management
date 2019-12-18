@@ -67,27 +67,53 @@
         </div>
       </div>
 
-      <div class="row my-5">
-        <div class="col-12 justify-content-center d-flex">
-          <div class="inner-wrapper card card-body">
-            <!-- Login Form -->
-            <form class="pt-0">
-              <h2 class="mb-4 text-center">Add Author</h2>
-              <div class="form-group">
-                <label for="authorName">Author Name</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  placeholder="Enter Author Name"
-                  id="authorName"
-                />
-              </div>
+      <div class="row mt-5">
+        <div class="col-12">
+          <h2 class="mb-4 text-center">Author List</h2>
+        </div>
+      </div>
 
-              <button type="submit" class="btn btn-primary add-author">
-                Add
-              </button>
-            </form>
-          </div>
+      <div class="row mt-2 mb-5">
+        <div class="col-12 justify-content-center d-flex">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Author</th>
+                <th scope="col">Creation Date</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Author Name</td>
+                <td>Creation Date...</td>
+                <td>
+                  <button class="btn btn-primary edit-author">Edit</button>
+                  <button class="btn btn-danger delete-author">Delete</button>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Author Name</td>
+                <td>Creation Date...</td>
+                <td>
+                  <button class="btn btn-primary edit-author">Edit</button>
+                  <button class="btn btn-danger delete-author">Delete</button>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Author Name</td>
+                <td>Creation Date...</td>
+                <td>
+                  <button class="btn btn-primary edit-author">Edit</button>
+                  <button class="btn btn-danger delete-author">Delete</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>

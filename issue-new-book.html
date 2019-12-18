@@ -72,19 +72,39 @@
           <div class="inner-wrapper card card-body">
             <!-- Login Form -->
             <form class="pt-0">
-              <h2 class="mb-4 text-center">Add Author</h2>
+              <h2 class="mb-4 text-center">Issue New Book</h2>
               <div class="form-group">
-                <label for="authorName">Author Name</label>
+                <label for="issueStudentId">Student Id</label>
                 <input
-                  type="email"
+                  type="text"
                   class="form-control"
-                  placeholder="Enter Author Name"
-                  id="authorName"
+                  placeholder="Enter Student Id"
+                  id="issueStudentId"
                 />
               </div>
 
-              <button type="submit" class="btn btn-primary add-author">
-                Add
+              <div class="form-group">
+                <label for="IssueIsbnNumber">ISBN Number</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  placeholder="Enter ISBN Number"
+                  id="IssueIsbnNumber"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="IssedBookSelect">Issuing book</label>
+                <select class="form-control" id="IssedBookSelect">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                </select>
+              </div>
+
+              <button type="submit" class="btn btn-primary issue-book">
+                Issue Book
               </button>
             </form>
           </div>

@@ -60,21 +60,35 @@
       </div>
 
       <div class="row my-5">
-        <div class="col-3">
-          <div class="card ">
-            <div class="card-body text-center">
-              <h1>1</h1>
-              <p>Book Listed</p>
-            </div>
-          </div>
-        </div>
+        <div class="col-12 justify-content-center d-flex">
+          <div class="inner-wrapper card card-body">
+            <!-- Login Form -->
+            <form class="pt-0">
+              <h2 class="mb-4 text-center">Issue New Book</h2>
+              <div class="form-group">
+                <label for="issueStudentId">Student Id</label>
+                <input type="text" class="form-control" placeholder="Enter Student Id" id="issueStudentId">
+              </div>
 
-        <div class="col-3">
-          <div class="card ">
-            <div class="card-body text-center">
-              <h1>9</h1>
-              <p>Book Issued</p>
-            </div>
+              <div class="form-group">
+                <label for="IssueIsbnNumber">ISBN Number</label>
+                <input type="number" class="form-control" placeholder="Enter ISBN Number" id="IssueIsbnNumber">
+              </div>
+
+              <div class="form-group">
+                <label for="IssedBookSelect">Issuing book</label>
+                <select class="form-control" id="IssedBookSelect">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                </select>
+              </div>
+
+              <button type="submit" class="btn btn-primary issue-book">
+                Issue Book
+              </button>
+            </form>
           </div>
         </div>
       </div>
